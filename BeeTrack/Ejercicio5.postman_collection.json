@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "ac5559f9-7d39-4c30-8390-c934baa4872c",
+		"name": "Ejercicio5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Personajes Vivos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/?status=alive",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						""
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "alive"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Informacion de “Todd Crystal”",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/?name=Todd Crystal",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Todd Crystal"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Personajes con Genero Desconocido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/?gender=unknown",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						""
+					],
+					"query": [
+						{
+							"key": "gender",
+							"value": "unknown"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
